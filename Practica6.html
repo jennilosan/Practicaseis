@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Servicios de TI de Juárez</title> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style> 
+            body { 
+                background-color: beige; 
+                color: darkgreen; 
+            } 
+        </style>
+    </head> 
+    <body> 
+        <div class="container"> 
+            <h1>Servicios de TI de Juárez</h1>
+            <div class="row"> 
+                <div class="col-md-6"> 
+                    <h2>Ponte en contacto con nuestros expertos</h2> 
+                    <ul id="servicios" class="list-group"> 
+                        <li class="list-group-item">Desarrollo de Aplicaciones Web</li>
+                        <li class="list-group-item">Mantenimiento a equipo de cómputo</li> 
+                        <li class="list-group-item">Actualización de Infraestructura de Red</li> 
+                        <li class="list-group-item">Hosting</li> 
+                    </ul> 
+                </div> 
+                <div class="col-md-6"> 
+                    <h2>Consultores</h2>
+                    <ul id="consultores" class="list-group"> 
+                        <li class="list-group-item"> 
+                            <img src="https://th.bing.com/th/id/OIP.uzZn201EGWo1iQyaNBOQpQHaF6?w=148&h=180&c=7&r=0&o=5&pid=1.7" alt="Consultor 1" class="img-thumbnail"> 
+                            <div> <h4>Francisco Pérez Loya</h4> 
+                                <p>paco_perez@consultores.com</p> 
+                                <p>Servicio: Desarrollo de Aplicaciones Web</p> 
+                            </div> 
+                        </li> 
+                        <li class="list-group-item"> 
+                            <img src="https://th.bing.com/th/id/OIP.Z134TDGZNsEIZebVd2FKtwHaJ4?w=115&h=180&c=7&r=0&o=5&pid=1.7" alt="Consultor 2" class="img-thumbnail">
+                            <div> <h4>Luis Domínguez Rosales</h4> 
+                                <p>lucho_dominguez@consultores.com</p> 
+                                <p>Servicio: Mantenimiento a equipo de cómputo</p> 
+                            </div> 
+                        </li> <!-- Agrega más consultores hasta completar ocho--> 
+                            <li class="list-group-item"> 
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AQwDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAECAwQFBgf/xABJEAACAQMDAQYCBQcIBwkAAAABAgMABBEFEiExBhNBUWFxIoEUMpGhsRUjM0JSksEHYnJzgqKy0RYXJERj4fA1Q1Nkk6PCw/H/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQIDBAUG/8QAKBEAAgMAAgIBBAAHAAAAAAAAAAECAxESIQQxQRMiMlEUQlJhcYGR/9oADAMBAAIRAxEAPwD0zJyeTRk+ZoPU+9FTGLk+Zoy3maSigBwJ8zRk+ZpBR40ALlvM/bRlvM/bRRQAZPmfto3HzNIaSgBcnzNJk+ZopKAF3HzNGT5mmk0Z9aYyrfZKR8n6x/CoMHuhyelWLsZRP6VMC/mxQBBakqxGT1p8UzEzJg4DMKgT4JMeZNOUgC4I/V3fhSQiIuESLrlp1GOv1mqXJlvnck7baLb5fEeajjRSLVn6LumJ9AOtJDvFvLIf0l5KzAeSk4H3UECS2zJNLMc4zsT1NasKncvXC8/OqdogJwv1E4B8z41qRoFHrSJJDst5mlBbzNGKXFIYoJ8z9tLk+dJS0gFyaMmkooEPyaOaSikAvNHNJRQAZNHPnRSUAUz1NFB6n3oqwYUtJS0AAooFFAC0UnhRmkAGkpSabTACaYT9wJPgABySSeMUOa867Z9oJpJptHtJMW8Pw3xjPxXEw6oWHRE6Y8T7CmDeI6S+7X9nLKRojcSXMinDCyjEiA/1jsqH5E1Rj7daM7lTaX6KD9f8y+OfFAwP315uqAbfzigEZO3cWHoSQB99TpHjc68gYBOMEZ8CKRTzZ61+VNPvIYZLe4SRXfAGGDZxnBUjg1djYNCDxXkCyXMKLIjugO1lKMwztPXg+HhXc9n9a+nWxilI+k24US8/XU8LIB6+PrQWKWvGa8hw5PrUZk4vEGckqPfdxQrd4ZB8xQx4Bx1dT77RURsnkDFFiXgtsgHmF6saR27yYRxY+Ed0uOiqOrVFLJsP84Lhef1m6mpbCNgXkY9T1piNi3jVFRF+quM+pq0SfCq6LgAjxp4Bp4MlBORTqiANO5qID6BTadQAtFFFIBaKSigB1FJRSAKSijNAFQ9W96KD1b3oqwkFFFFAhRRQKKAEpaSigANNzSmm0xlW9uDa211cj60EE8y56Bo0ZgT6DGT7V49pWlahrlxKElVA5aW4nly2CCOdo5JJPHz/AGa9Y1oqNL1UsCwaxu4woBJdniZVUAc5J/64riewW8x6lgE4eBMAEkYUnoPeq7JOMdQRgpzUWWU7EuECrdRHAx8Qbj24z99aVt2S0y3bdcZuGCqNjZEeR44BrokBU4bg+vFOfaAzFgFUZZmICqPMk8Vn1tezSoRi/RzGv6fZmwkZIY0eBcqVGMKOMcVymgTGPU4DuwHiniPrxvA+6u21CfTruGa3ju43eRWjzAS4DHp8agpx5bq4rSbZk1OdZmKy2hlTYFzuk5Q554AGT9lOmWamVeRDZRcTtbSTfOV8GqeXIns4wcbndmGOqqM1lwyNFNC56AgN7GtGaXN3DsGW7h9mMnBZgM1eijeiITrNeSxqpkIYgY6fOtq3QqFB8PDwqpawW9uO7hX4mO6WRvrOx561qRJ0P2VNAv7lhegp4pi9KeKGMcKdTBThSAdS02nUgCiiigAozRRSGGTRk0UUAGTSZNLRQBVPVveig9TRUxhRRRQAUUUUAFFFIPGgANNpx6UzNMCvcRxyAhwSpV0IJ42uCjceoyPnXGWWgyWja5bAR7ZLlbu0A70RFWi2KjYYMdpHnXbvyKz7n80Um8FIV/6LEDJ9jiqLo7HouqxS7MbT9N1Gymaf8qXUkAK7bWUEwhNvxAhmJznoR09av6jZRajLHHcF2gg2usKsVV3bqzkc9MAf86uTOixO5zgLuO0FjgdcAc1Wa9szeWsUUneySxCRhF8SxxjjfK3QDyHX0rI2/wBm1Rj+ita6UtrhDPdSQIuNtxO0oJ3Fgdp+EYBxwPD7c+O1iN9q9yq8ytHFx0DIPiYDHiMV0NxMETd15xgeJ8qwtNw0t7u5JLN888kVKuOzKLWox6QjptcHHkORV6C3LXCMZGXcoUbeu3rjNVZSTKiL4nn2FWLebbPNzwjxp7ZFbEtfZgXRqxxxx3RhXdjaH5Oa0RjAxVOIbrjvMf8AdgZq5VmYPdJF6U4UxTwKeKQDhSimg06kA6lpoNKKQC5opKDQAtFJRQAtLTaKAHUmaSigCuepooPU0VIkFBoFBoAKQmijNABmkzRmm5pjHEimZFR3E9vaxGa6ngtov/EupUhT5FyM/Kudu+2/ZK13Bbua8cfq2MLFSf62bYv400m/RCU4w/J4dGxzgDnPQDqayNZ1PStMtpnv5lBZWSO2jKtczuRgIkY5GfM4A/HgtZ7cavqIeDT0OnWjAqxjctdyg+DzDGB6KB7mubs8G/01n5BvrQyFucjvkJ3GrVVq+4xz8yO5A9YilneJoH2x3UACOrAyLu8PIkevpTES8ZiqmKMsSZmgsdhY+Zd8jNXNRtJWxeWxAuIt24c7ZFHgwHhWPJr18FZRZ4cDHMhK59MDNcedbjJpvD0Fdy49LSfVrwW8QRT8bHEeSM5xjdx5Vh22rWVhcyQXbvEwUYZkZlw6h1YlMnkHyqS2gu9UvQJzmWQbnIHwwwg4LY8vBfM/dk9r4Vj1OJlTaslpDtA8kZ4x9gAHyrT4te62c7zbeKTR0lrdW9zdAwyxyrsdh3bhsgeQ6/dUtuJVh1CQ8SNcJKM+GWArzmJiCCCQw5BBwfkRWtBq2qxK0a3UpR9oZZMSAheRndk1t+hnpnLXlp/kj1KzckgHrirxNcLp/a7YV+nWowMAyWpIIHAJMbZ9+DXbRyJIiSIwZJFV0ZeQysMgj3qMouPs21Wxs/EnXoKkFRKeBUgqJYOpRTQadSAWlpuaWkA6g0maD4UgFzRSZozTAdRSZpM0gFzRmkzRn0pgQnqaKQ9TRTJC0hoFBoAKQ0ZppPNMYua5jtnrF7o+kxtZSNFd3t19HSZQC0MSIZHKkggMeAPn5V03UgDrXlHbTtNHq0iabYMrafaT968w63Vwqsm9T+woJC+ec+VTgtZn8ifCD7xnJXFxeXsrT3dxNcTMeZLiRpH+1yTTQuOaUY+4UuQa2KKRw5SbDJ4p6tsIkGR3eJB7qd1M4yKVv0co/mP+FMivZ73HhwGHO/BGPUZ4qlc6asx3W4jUs57wsu6MebAAg59jj+JEslxZWOJ3iiltLdnEJ2zOGiX4e96geeBn187dqhgCwRp+YA/NjeSUHTGW59vf0rBOKl0z0cJNdoq29pZ2RaFHQ3U699MWZO9lCfDkKv6q9MAcZ9cniu3EeJdKl8GS6gOOg7t1f/5V2a2iTXOpy3UasxmSG25w8cMSgq6uuGDMSWOD4+lcx24gVNP0iQFmKXl2rO5BZmmRZCWxjxFW1pJpIy+Tsq22cFjHIPhzU0bVDnCn2NOjPA9q0HHLiyHcvv8Awr07svcLcaHpuGy0Eb2smeoaJiMfZgj3rykNhic9FY/bxXbdg7n/ALXtC3T6PdIueMndE5H2LVVi1G3xJZPP2d6Gwop6sCOtRr0WnBQecc+lZjqkgODjzpwNR84x4jkU1ZAWKjrikMmDZzS7sUzOBjxoUHqep+6gRIPGlz0ptBPSgB1FNyKAaQx1GaTNJkUALk0ZpM0maYDD1NFIepo8KYwoNJmkY8UDFpjHmlzisDWu1WiaN9KhknE2pRQu0dpGjyATFcos7rhVHQsN2ceHPLSb9EZSUVsjH7b9pY7O3uNEs2b6dcxqt9IhwLa3cZMOR+u4+t5A+bceX4B56eVTXV3c3t1d3l04ee6meeZgMAyOdxwB0HkKr/EOcHFaoJRWHFusdstFzzz5UucUwHJ+VPABqSelUlgoPIpzn4HA/Zb8KYRilJ4b1BqWkM+T3HSmQ6XpDscltPsj9sCdK04yMBsY8AT+FYnZ+RH0TQW8fybZj5iJVraTDIu4A4O4A4OCDwaySO/B7FEBwkzgn9KN48htwpxXL9uEzo0bfsajbn23xTL/AJV01yxWay4OC06FjjDZjVuOfSuf7Zru0G6P7FzZP/7hT+NSr9op8juuSPLmbCt7U9CAKrsT09ak3AL15rQcXOiQP+kPmAv35rp+xNwsWsNGx5urOeJT/OQrMB9gNciG6+9bHZ95ItY0KUZG6/ijHqrgxt8uarfZfW+Mkz2ZDwtSiq8TfCKlDcVmZ3AeaJOrDNVBPbrcNIXwCgHPTOaJQN5yOvNN2RHgqDUGtHheSaFsbXBJ8jUuaqRrGuMKBU4cVIRLmgnpTNwNB38Ha2PPBxQA7NLmq8lzaxAmW4gjA675Yx92c1Uk1vRY/rXiN6Qq7n5cY++gTaRpk0mawZO02mLkRxXEnkT3cY+8k/dVR+1TdIrOMeRkldv8IFIi7Ir5OpzSViaPql7qMl0ZUhEMSoFaNSuJGJ+HknPHP/7WxnpTJxerRx6mig9TRigY3PWmseKcRXPdpe0lt2etoWMaz3t3v+i27MVQKvDTTFedoPAA5J9iQ0t9BKSitZL2k1waDpcl1Hta8mf6PYI2CO+K7mlYHwQc+5A8a8UkaWZ5JHZneR3kkZ2JdnY5Zi3meprQ1jXdX12WGa/mRhArpBHDGI4YVc7mCIPE8ZJJPA8qy+v6zfwrRCPFHJvt+pLV6Dpnkg+RINAdhx8PvmgBueFI8+K3OzPZ6btDf7GDR6balWv504ODysEZ/bb7hk+WW3nZXCHN8TDCShY5WjcRylxC5VhHJsO1u7YjBweDinivS+32m26aFpUlrCkUWlXa28ccQwkVvcxldoHluVft9a8zBp1y1Dvr4SwccUnl9lJRUzPh7H2WIfs7oRPUWiL+6StdCgOxMEA8ZOAdygn4a5fsa6v2d0oZyUWaNh5FZXFdOhwiYBOcLgY+Hrljk9KyyO3W9iitfctpp8rwjHiN0EnWsftWu7QNXHXbHBIP7FxEa1dUlSCOxl89Qt0JGOS8UqjJrL1p+/0jW1fhfyfcY6nlV3Dp6gVKHwyFrWSR5AT8XsTRmmHqfnSZq1s5KRPGQoLFVOD4/wCVaWkbpdW0Uu4iQ6jZjcR5ShgFHqRj51lw4OC3QdB4ZqZZ+7ljnBOYJEljA65jYPn7qPgSeS090RXxUgDeNJGQ6o6n4XVXX2YbhUoDVkw9Cn0VZlIYHzpB1FWJI2fHPSq85a1gublsYt4Xl58WUfCPmcD50A2ZOo9oVspWgtrdLiRGZJS8jRqjLgcYHPj4+FZj9p9bkyI47KAeYRpGHzkYj7qwXld5JJGOWdizE+JPU0m+mYXbJ/Jrtq+vS/W1KYDyiCxj+4BVZ5LiXPfXVzJnrvkY/iaqBvWnh6RHWybu4vU+5pjBR0/GkMmaaTmgRGzEVH3mMkngcn2p7DNT6ZZG81GwtiuY3k72by7mL43z78D50xJa8O30G1a0022DjEs4N1KD1DS4KqfYYFauentTR/CgkDHtSOiliwlPU0eFI3U0nhQMiuJ7e2gubm4fZb20MtxO/UrFGpZiB5+VeHanq35b1iTUNQMqW8siosUJUvBaxgiOJC+V443HB5JOD0r1rtW+zs12jOzcTZbMc8B5ok3ceWc/KvESOatrXyYfKljSLEkEeZDEGV0G5oXIZtnUSRsOGUjnzHqOaqMPEDB8QK67Quyl7q2nRXx1GK13SOdPxE0jxlJChd3VgQCQTgZ8/GtrRuyWirDPcajaTzTLLcwrFfOGRUhkZO92QhcF8Z5LYGOec1CXkwinrHX4VtjTSzTg9J0u/wBbv4NPs+JJPjllYEx20AIDTSeg8B4kgeNevXIsuyHZi8awiJWxt9sJbazy3dwywiecnqdxDN7YHGAJtA0TStGivvoKMPplyZ5C53FY8fm4VY87EBOMk9SfGjtVF3/ZrtGmM7bBph7wyJN/Cly5Y/gvjS6k0/Z5Bfdoe0epqYr/AFS8nhcruhZwkLFTkExRgJx1HFZ9R1J4A1oj0cyb16xc04HJ+VMpw86mitpYendiklOiQsj4Pf3GAeR+kPFdlG5EcYl2qxCrkEYZzk7Vzz/16VxHYW7t10l4JJY0eO5nwJHVchjvyNxFdrFJHIqsjq6lVZWRgy7TnDKRxVMzqUZxWGb2gRjpqshOU1HS5I1wAEAl7s4wM+NZF7dCKNrcCSeSWJozEiljiRSpyBx9tb2rSRx6dcSTMqQxTWLmR2HKi4iyzYHHX+PtTOs9mkHOqaaPEkTRgZ9xTh6K7opy94eNOpRmVgQVJVgeCCOCDTCeOtbPaX6E2sanLZTwz208oukeBtybpVDOuR5HNYmamzAl8EwJwFHUjr6Vbs0tDPBHdytFbyyKlzLGu90hP19g88cfPPhVJSx56cfM07GepP25NNFbXZ7pZ3UMtvbyWsySWzRr3LJypRRtAB9MY+VWxM3mv2V512Q1uytLCayuWMfc3LzRyMcq4nO4qB1BBHPvXWx63oz9LyH5tj8ayyePGdqqSnFS02+8J8VrB7UXxis4bRSN903evg8iKM4X7Tz/AGavR6hYyEBJ42JIAw6nn7a4vXL9L6/nkibMKYhgPg0cWUDD+kdzfOkmn6C58YmaTQGqIsc0ucZqZgJt3rTt+PGq+eKUHzpYPSwr+NO3etVgaduowek2STXV9mYYYkuLuQgPL+Yiz1EakFiPc/4a5SBJJpIokBLyOqKP5zHaK9Jt7S3t4IIEVdsUaoDjrjq3z61Fmiha9Je/g/bX7aUFXAZWyPQ00ww+KqflWZcAmaRYr2S3WM7DHHIijcOSSD481FvPZs6N0gZNIaU9TSVIiRSxxyJJHKivHIjxyRyAMjo4KsrA+BHWvFe0mjQ6Nqc+nW8pmWSKKWEt8DQd8d4jZiT9UePlz4ce3EZrjdZ7Hzarq1xqrX1sS5hjitLqyM9ssMcQjw4EqsWz8XUD0qcHhRdXzSwv2ht4LDTXtIVjtVtoO7WMgo0BQFdjZAz489c+ZqZ44rpQ0lnckSMMxPKsSzAdDLFv2ke/l41TRprAWem3ss01xOzpDPZaesVsyjkRfR4tyKFHGSAOOoqxJa3sKSm0h3XTRlLYSyypaxOT+kdGJUAdSBknGPGuROElLM071VseCe4yTStTmuJr60urP6I0N1JFaSLMk8N0iqGIV043r+sMD0+qQujeQpd2d/Zs21bu1ubVnAyUE0bR7gM+Gc1T02znsraGCVLA7Tvla2SSPdJncZMOW5JyT0rQwD5V0oLEkcp9ttnnX+rRf1dcb+1YD+E9A/k1mUca5HjwzYN/CevRgoHh7Yo25PP41ZyaKHRB/B5wf5OLrw1i3PvZSj/7ab/q5v8Aw1e0/tWs4/CQ16VtFKBkgAZJOAPEnyFP6jI/w1f6PO7P+Tkh5G1C/hlgClh9HMsG3HJZzIrDHzFdlpttHaaVaxWome1sbcra94SklzHErbWxjo36uQPA4rPutU/Kl09hp+JrS3mEdzKnMd3cocmJTjBiQ/W/aI/ZGH6OMPFCGuJst1kkkOBnrgUNt+wrhCLfE5LXdW02fR72K5llEN0be1mW1gzcxs8iuBieRFH1cZwR5Vg6be9i9PnVm01lCBf9qvzHNKjZ5bBLIB8h712OrW/Zu7j3XVxDbtI6xRzMrIGkf6qklcHOPOudh0DXm+CHXezEMY+ENa2Nk07r0BYugOfP4qlCWIpthJzTWFXVuzKaxDbXHZ210razSvc3EN6irJvHwqY1QjPjnj59awz2E7Xj/d7I/wBG9j/iBXo2j6DqWnz/AEq61W51Ai1e2RTD3UCK8qykqqsy8YwMAePnW3xnnHseKXNlioi+2jxz/Qrtgv8AuMDf0b22/iwpR2M7Yt9XSmb+rubRvwkrd7RdoO2um3s1oLuxiQKJInsLWNd8TcBt1x3jg+B+Lwrnfyvrl+xF5quoSjBYxtcyKpx4CNWVc+mKsi2zFaqovMZMOy/au1kjafTmij3APvu7FPhJwThph0q6mkFpBF9MsxISQFa6gJJ9BGWP3VRWHTWYbraWZyVA+N8sTycAZbjnOQB61dt5ktcPBHDCCMd5Gke7YTjehkJO7yXc3n0FQnWpvtirtcFkV/0uz6BcWlnd3cl7GO6jARIVZy0kjCNBubaOSR4VmYABA6ABV/oqNoq3fXtxN3Nu11eSBWNxLHP8CjA7uINGCRu5Y8EdOgqmeAPIVDhGPUS2Vjn7GilFIB5+dOx5ZNMgFANMaSNc7nQEeG4Z+zrUTXUC+JPsMf4iKeMWlnPSnjNZ7Xn7CD55P+X403v7tiqgEbiAoAAJJ8Bxk/bRjBSXwdZoKKl0LpwCtuMoCeO9cFQflya6v8pg/qr+8KrdlLS7tdJiF1GRPcSSXDI8YDxK3wqrsxJJwAeemceFb/dqeqJ+6v8AlWS2u1y2MsX+Dr+PKuEEnHWZS6ghP1f7wrhNWT6Rqmpy7yu65fADZwAABXp5gh8Yoz/YX/Ko2sbBiWa0tmY8ktDEST6kioxrt/mlv+iyc65LqJZPU0lKeppK0lQU0inUUAVJzfqw+j2lvPHt+LvLtoHD5PAHcupHTxH8ajEt9+vpL5/4V7ayfZvCVfooAoiZ/wBfTtRTz2raOP7k5P3VIskfGYbxQSMl7d+Mn+YDVrmjmgenFz6l2/kkma27M2r2/eyiBrm6McrRK5CM8LTKQSMHFVW1D+VEZ29m9NX2MT4/euq73Ao2io/Th7cSL5f1M85k1D+Vo9NJgj/qrWyb/FK1Ubuf+VGS3uBfG7trNkK3Ejmws7dUPBEkyEEA+PPPr0r066+krBKbQRG524hM0bSRq2Ry6K6E+24V5l2qsO19+lpNd26XWyV0UWVpfRSRBVzloDJJCFPgV545NTikn0iixNLdbNTs1Pp9hZyrpCNfXTuEub+YPFabl6rbxthyi9ASBnriulthLLGk99MZpWdgC3Ea5baqIg4x5Vxeg6rpWmabaWV+ZbW4jMxkFxFLGMvIzZy6geIrrtN1PSrmFfo95byfE4wssbHr+yDn7qnJdEKZb1pHrQYrpKA/X1OFivVcQwTPkD7K5/tWsC6LdsY497yWsanYuRulDHBx6Vv38sMtzpy95HiJriZQWwxzGI+Q3ucVzPbN9ul26g8S3sQOORhI5GqUPRC5rWzhIbq9tipt7m5hIPBgmlj/AMDCtSLtX2ttQNms3pUYGJ3WdfbEwaq2maNqurt/skQW3DBZLufKWyHyDYyzeigmvSNC7GWWn93O4Z7kc/SrhF74H/y8DZSMepy3tTk0VVV2S9PDKsE7U9ozZxa/bWpts97Hm2EGp92cZdDA6bFPm4Of2TTdV7A3kb95pU4uYsZMV0yx3AOeiuqiM+n1a9EhghgUpEgUMdznks7ftO7ZYn1JqTFVqRtdMZL7uzxS4tNXsnSK9hnRkBREvUJXbnpGzcY9j+NOF1OvJj4ZlLZJ2qi9FQj84AP6ePTz9nkihmRopY45I24ZJVV0PurAiuevux2hXQLQCWykOcG2O6LJ/wCDJkfYRUuZll4jX4s8+lntoW3PM8vekupWJlO0fCBgnbkHOefGoH1CIE7IyfV2H4Ln8a61uwN08rO2o2jKWHBt5wQB+t8Mg59M1o2vYfTIcd/dXEh8RbxwWyn57Xk/v0m0RVFj6PPTd3sgJjTauM5WMY/efNJHFfXTBFaWZs/o4N87fuQhvwr1mDs52cgKsNOhlcdHvDJdMPb6QzD7q1URI1CRqkaDokahFHyXAo5Fi8Vv8meTW/ZTtFcYIsJ41PRrporZce0jb/7lbNt2CvDg3N7axDxWCOW4b95zGv8AdNeg4oxS5MuXjQRy9t2J0GHaZnvLlh1DyiFD/ZtlU/3q2bXSNGsiGtbC0icdJFiUy/8AqPl/vq+aSkWqEY+kPQZHzqSo08ftqSkSCjFFGaQDtoJNG1fWiigkGxfWjYvrRRSIhsX1o2L60UUxibB60bR60UUAAQetG0etFFAw2j1pNi0UUCGvDDICrorqequAwPuDxWfc9nezV1k3Gk2EjHqxt41f95AD99FFOIcU12UY+x3ZuKZLu3gnhkgO5ES5maE48HilLIQfEYrE1qz0lIpu80yxnaGRJEM8bD42kVMssTKh4OOV/wCZRTZWorvo7C1srSCOB40GRH+b4AWFT+pEoAVR7CrWxfWiioluBsX1o2L60UUxBsX1o2D1oooATaM+NLsX1oooANi+tGxfWiigA2L60mxfWiimAmwetGxfWiigBUUbh1qXYvrRRSYAVHrSbR60UVER/9k=" alt="Consultor 3" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Mario Velez Saucedo</h4> 
+                                    <p>mario_velez@consultores.com</p> 
+                                    <p>Servicio: Actualización de Infraestructura de Red</p> 
+                                </div> 
+                            </li>
+                            <li class="list-group-item"> 
+                                <img src="https://th.bing.com/th/id/OIP.PAxGKku-nx9kTcQFLzG7vAHaFh?w=280&h=208&c=7&r=0&o=5&pid=1.7" alt="Consultor 4" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Iván Moreno López</h4> 
+                                    <p>ivan_moreno@consultores.com</p> 
+                                    <p>Servicio: Hosting</p>
+                                </div> 
+                            </li> 
+                            <li class="list-group-item"> 
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEA0NDQ4QDxAOEA8QDw8QDw8QDw8RFREXFhUSFRUYHSghGBolGxUVITEiJSkrOi4uFx8zODMtNyotLisBCgoKDg0OGxAQGjYgHyUrLS83NzI1Ky8tLSsrLS0tLSstKy0rLS0tKy0tLS0tKy0rMi01LS0uLS0tMC0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEBAAEFAQAAAAAAAAAAAAAAAQcCAwQGCAX/xABEEAABAwIDBQYDBQQGCwAAAAABAAIDBBEFEiEGBzFBURMiYXGBkRQyoUJSgqKxI3Ky8AgkQ2PR8RUzRFNig5LBwtLh/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAEDBAIF/8QAIBEBAAICAwEAAwEAAAAAAAAAAAECAxESITFBIjJhBP/aAAwDAQACEQMRAD8AzUqoqgIiqAiIgIiICIiAiIgIiIIiLp+2G2QpSaamAfOB33HVkP8Ai76Dn0UTOkxEzOoduc4DUkAdSbBaWStd8rmu8iD+i867QbRTykukkdK483EkD90ch7BfLwzHJonhzXvhJFg5rsjtfIrnmsnHr69QIsMbNbw6qIxmpf8AEQnR4frMzW12P5+R9wsw0dSyaNk0Tg9kjQ5rhwIK6iduLVmG8oqily0lFVEBRVRBEVUQFFVEERVRBEVUQacqLUiDkoiBAVREBERAREQEREBERAREQfD2yxv4GkkmBHaO/Zw3175B71udgC70WB5quSaQRRh8kkpJsO89xJuSfrqfErvO+XES6enpQdIojIR/xSOsCfINB903a4UyOmFW5oMtTdwcfsxA2a0edr+o6KjJfTXhx7fEotiJiA6eQRnjlY0PcPNzuJ9FuzbBs49rITx1y28rWWSxGLcFxpmjos1pt7tsrWnmmGa/BjTHvZmjMSCLke6yHulxvvSULiSx4MsN/suFs7fC4IdbwJ5rkYxSCRjhlB6XCx5s9iXwmJ0jh3R8TGwjkM5yO/K5ytxXmZ7Z8+OIjp6KREWtgRERBEREEREQRRVEEREQRFVEERVEHIRFUBERARFUBERAREQEREERVEHn3efWZ67FX/7oRxDwtHb9brsra59LSUlq2Cn/AGMYaySEOZ8otmeXjXyt6roW19SH1WJl/CWoqPYS2B/MstT7L08rWl0bS4xdkX3N8hsSBbhqB7LJb3t6GOOuk2dxV9Qy73wyE8HQBwaR5En6FfP2qxFzGkNqvh2ggOeGNLvIFxsCvt4VhEdMGsjaGhg0A48LLZlomS9pG+xzF1wQDo4WcNeRCq+r4jp1nZ6tppnZYaueSTQuEkwfnAJBOQjQXB1HRdP24h7CrkkYDdrontAsADzceZ4cPFZWpcEhpwCxjW5RYWa0WHGwsOCxvvEymQOJF5XNjYOZc3U+1h/Nl3E/l0rvX8e2fYZA9rXjg4Bw8iLrWvh7EVfbUFE/iexa0+bCWH+FfdWyPHmzGpRRVFKEUVUQFFUKCKKqIIiqiAoqiCIiqDkIiICIiCoiICIiAiIgIiICBFHG2vTVB5V2k700g+++qB8bi4+pCzHsvjLpaCjm1c4wMzW5vaMrvzArCm0M37VpH2ST+VoP6Fdx3bbRtgPwE5tHM9zqd5+Vkh1fGegNswPUnqst4mat2K0Rdkg1BGUicMcTmcO4b2v3TfgF819Y2MySz1bTa7tS1rWaD7VvDmV9T4YROMsMbQ55Bks1nfI56g6rjzsfOQZW9xtrNOWxI52AA5BU6jTbGvWl1c97W6aHnyI6rA+J176iV87pHPtO8xZiSGszvLWjoNQsobe44YIJGQnvyWiDvuB2hPnYmyxXHT2ge61spv6f5KzDHW5Zf9E7nUPQ+6aYOw6MA3DZJgPJxEg/jXdFjPchVg0hhvqMjz+IFv8A4BZMWqnjDf8AZERF04RERBEREEUVQoIiIUEREQEREHIREQEREFREQEREBERARFxsRxGCmZ2tVPFTsuBnmkZEy55XcQLoOSuNiL8sMx/u3287WC6riW9DCILj4ozEcoInvB8nEBp9103aHfPFIySGjpXtztIEtQRlB5EsYSSPX0SUx6xBtDMDPIG8Guc0f9R/x+i7fsJgxrXXY27obSNb95wYCR66j1C6hNSs+bMy5ubNkz3876+671usxhtPX0FM3Vs8hY93IudG61vxBgVM13Gl9bcZ2yPT1MkLRa72cgfmb4f/ABcOvxqR4yMYW3+0bXXbMWpA9r54GZrm5a3XtBzc0df1818XB8OZUyEPvlDS4i5F7EC3Xn9FktjtW3FtrlravN0XaTCc+G11Y9pywtAicfty9o0Fw8Gi4v1Pguh4NUNkpZ43fOIyLH7WUXB9eHostb88VbBRQUDAGmpOUNboGxRua42HS4aPVYIjeWajyWyMURXTDbNM35Mt7nMSDJohezZe0gI5Zo8j7+0g9lnFeTNm9oJaF0ZaxkjWTGbK7MCXFmQjMOAItyOoCy7hG+ulcGNq6SeI2sXxujmZ9S0/Rd1jSq07ZWRdYwzeDhVRbs6+JhJADZyadxJ5DtAL+l12ZdORERAUVUQRCiFBEREEREQEREHIREQEREFREQEREBERAWC9/OJiSrgpWk/1WHM/XTPMb2t1DWMP4lnReU9uMV+JxGuq/szyd3wYwBjPytapgfALjZbci1u5+6o1QaGHh5BfU2eqTHWUEpP+rq6V58mzNJ9LBfLYOHqPqtwOy977uvtqg9g0kbQxrRwtovjvi7KvLox3Hw9rNya0XcCb+JDT6FfXw9+aONw4OYxw9WhaKxoJIcQ1jQ0v6uAubOP3RxXNq8tO6347/rz1vpxT4jEywHSlgjiI6PJMjv4mj0XQl9DHcQNVU1VWf9omllHKzXOJaPQWHovnldOGm9ytxaYxzWocUGtnivUm72qfNhWGySZs3wzGku1c4M7gffncNB9V5YD+Q/yXozcrM9+ExB5JayadkRJv3A69vIOLx6JI74iIoEREQREUQEREEREQEREHIRRVARAiAqoiCoiICIiD5e1Fd8NQ19SOMFLUSD95sbiB72Xk+qbo1w6Bp9BovSW9yv7DCKvrMYoGjrneM35Q5ebXc+imBxWHW3gVWLSR3h/PJbjBqg0x8PUrXbkrlVAQeqth6rtsPw+Y/bpKcnz7MXXB3k4p8JhtfMDZ7ojFGej5bRtP5r+i4u5+o7TB6M/c7aK1+HZzPaPpZdQ3+YoctHRC4D5JJ3m9r9mwMY3xF3vPmAgwwVoIubdFuOHNaRYIKVtymwAHErWXgLZabku6aBBuN0sAvRG5PFopcNFIzuy0T3CVv3hK90jZB4G7h5sK88MHVd63Q4z8LitO0nuVYdTP10u6xjPnna0fiKD0ciIoBRUqIIiIgKIiAiKICIiDkIiIKiiqAiIgIiICIiDF/wDSAlIoaJgPz1dz4hsMn/sFgm/VZ83y4PNXf6NpaYxiQmqltK8sBDWxg2sCSe/06rGlVuwxRjS9scMoHKKcZvzho+qcoj11FLTG4h0ibQg+IW6wK19LJE58MzHRyM0cxws4H+ea2hJpdS5bhKq44fxW5m4IM97gqzNQVcR/sqskeT4mH9Q5Y43vYoajFqpt7tpstO0chluXfVxX3dxGMNgmxKKR1mOp2T68uycQ8+zx7LGeJ1xnmqKp3Gomlm9ZHl1vqg2nO5dP1UJW2FHOQV5WmPQeJJK0udou1bIbDVWJNzx5YYRp20gNnHmGAfN56BRMxHqYrMzqHWmA8eq5mHVPYSwz6/sJY5hbjeN4eP0WRardE5rQGYhG6S18phIafIhxI+qx5itA6mmlppXRufGcrjG7Oy9r2BsOvMKK3i3jq2O1e5h67v04ckXzNmKzt6Khn49rS07z5mNt/rdfTUuEQoogIiiAiKICIiAiiqDkIoiCooqgqKIgqKKoCIiDDm/9zjLhEbA4ucKssDA4vL80AGUDW/HgvlbM4ftJTBj2Xli+Y01VO1ziOl3G7Dbx05hZA26xoUtTSCOjNRWzCSKiaALuacrpXZ+EbR3bnoOi2aB8kdzX4g0Su1MMWRsbCdcrc13G3XS/QKnJf5poxY997bG0ezNPitMySrp5KSoDdHNDXTQnm0lt2vb4eR0PDCW02ydTQF2cdrBfu1EYOSx5OHFh8/dekhIHNBBdqBYm4PsVxqqia8HMAb3vfjb/ALquMk18XTiraO/XldpQP4rN2N7rqOYl8eancdT2WXIfwEW9rLFO0OEspKmeka/tRCWgvLcpJLGuIt4Xsr6ZIt1DNkxWp3L59HiMkHamJ2XtoXwP8Y5LZh9AuONTfkOHn1W6YW9PqU7IcNVYqbLnrbLluvpujvfVVkDbc/dB3bdbsgyvdNUVTc0MRa2NhzZZJOJuBxAFudtVm34BvZCCxbEGhoZGDCLdAQQR6LAmE7aVtHEyCldFEyMWFoWFx1uSS69ySvo0+8/FG5iZIZMwFs8Le7rxGW2vmqLY7WnbTTLSsahk7ENgcPqCXSwSMeRYSMlla7171j6grHG1W7l1Ix9RSziWKNrnvjlsyRjGgkkEWDtOVh6rYO9XFb6yQHQjKYBlP1XCrtvauqp5qOoZA4SXBf2ZDmgm9m96wty00U1peJ9LXx2idwzdujre2wehJ4xCWE/8uVzW/lyruC6nuuwk0eFUcbr55WmoeDxBmOcN9Glo9F2tWswiKICIogIiiAiKIKiiIhyFVFUSIiIKiIgKqIgqKIg6ztkCzsqh0kUEbA5j6l5DXwxu7zw0kW72Rg16X1tY43qt5lBSuIw+lfUON88rj2YcfF7gXu9vJZZ2pwltbRVdI4X7aJ4ZwOWQC8bh5ODT6LyjIwt0IsRxHMHouZxxM7lZGWYjUMpUW+QZv61QlrLjWGUPIF+YcG/Rd5wXbXDqwDsalgcf7OQ9nKPwu1PovNzm3/nmhaLWKTjj4Rlt9epp66FouXNt1JC837TVQmra6UcH1M2X90PIb9AF8mWWRwDXSyFo+VpkeWjxAJ0WkzDqEpTjOy+TlGm6tK0Z/FMysVta0N08kLlLoNbnclGrSrdQDgt2jpu1mhiAJM0kcYtxJe8NFvHVbS73ubwM1eJRTObeKhHbvPLtOETT45u9+AoPRTWBoDWizWgBoHAAaAIiigERRAUVURAiiICiIpBFEQcpFFVCVRREFREQVFEQVFEQVeb95WytRSVlRKYXGCeWSWGZjS6OznF2UkfK4X4G3C40Xo9LoPHAseBBt0N1pKyhv7qGurqeFuhipml3AC75Hn3sB9Fix7fE+5Uoaloc0cVpyu5E/qtJzfyES1lg6IRoBc2HDXgtIDvBcptS0NY008bnAm77m7hY6EEEdNfBEONboSo4kC9/ot6We7QOya2x4t58dPr9AtkvuLWQQSHoFusf1F/AG1/VbQHgtxgKDO2F7oMLmhiqGVVa9k8TJY3F8A7r2hzTpH0IXdtk9lqbC4XQUuc9o/PJJI4Oke6wAuQAAABoAOvVfM3T4p8ThNHewdTNNK4D+57rCfEsyH1Xb1CRRFEQIiiAol1EFURRSCIogqKIg5IKqIoBEREqiIgIqiAiIgKIiDzVvTqu1xWvde4bIIgOgjY2Mj3aT6rprgFUXSGgLSSiIJdHcvVEUAVpVRBVqaURBmX+j9X6YlScgYahvm4OY7+FizAiKBFFUQRS6IgiiIpBS6IgiKIiGnMqiIh//9k=" alt="Consultor 5" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Carla Olivas Zapara</h4> 
+                                    <p>carla_olivas@consultores.com</p> 
+                                    <p>Servicio: Desarrollo de Aplicaciones Web</p> 
+                                </div> 
+                            </li> 
+                            <li class="list-group-item"> 
+                                <img src="https://media.istockphoto.com/id/1690506205/es/foto/retrato-de-j%C3%B3venes-inteligentes-y-felices-mujeres-de-negocios-asi%C3%A1ticas-reflexivas-que-piensan.jpg?s=612x612&w=0&k=20&c=9Ta2w5zBkeRFyROiGhOhjGNSaXiWETeUmTtMaSdGpoU=" height="200" width="150" alt="Consultor 6" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Dulce Maria Rodriguez Perez</h4> 
+                                    <p>dulce_rodriguez@consultores.com</p> 
+                                    <p>Servicio: Desarrollo de Aplicaciones Web</p> 
+                                </div> 
+                            </li> 
+                            <li class="list-group-item"> 
+                                <img src="https://media.istockphoto.com/id/1317804584/es/foto/un-retrato-de-estudio-de-una-empresaria-mirando-a-la-c%C3%A1mara.jpg?s=612x612&w=0&k=20&c=dPCcJRPE7BX2oreYlD9P2_lGi8bGW8_zONrUKif6hfU= " height="290" width="250" alt="Consultor 7" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Olivia Garcia López</h4> 
+                                    <p>olivia_garcia@consultores.com</p> 
+                                    <p>Servicio: Hosting</p>
+                                </div> 
+                            </li> 
+                            <li class="list-group-item"> 
+                                <img src="https://th.bing.com/th/id/OIP.SH9QjDPc9coY792ymi7tiAHaE7?w=237&h=180&c=7&r=0&o=5&pid=1.7" height="90" alt="Consultor 8" class="img-thumbnail"> 
+                                <div> 
+                                    <h4>Ricardo Gonzalez Vazquez </h4> 
+                                    <p>ricardo_gonzalezez@consultores.com</p> 
+                                    <p>Servicio: Actualización de Infraestructura de Red</p> 
+                                </div> 
+                            </li> 
+                            <li class="list-group-item"> 
+                                <img src="https://th.bing.com/th/id/OIP.5DCQI3nvFx1T5NdCBhatHwHaE8?w=280&h=187&c=7&r=0&o=5&pid=1.7" alt="Consultor 9" class="img-thumbnail">
+                                <div> <h4>Kevin Martinez Garcia</h4> 
+                                    <p>kevin_martinez@consultores.com</p> 
+                                    <p>Servicio: Mantenimiento a equipo de cómputo</p> 
+                                </div> 
+                            </li> <!-- Agrega más consultores hasta completar ocho--> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+            </script> 
+            <script> 
+            $(document).ready(function() { 
+                // Cambiar estilo al hacer clic en un servicio 
+                $('#servicios li').click(function() { 
+                    $(this).addClass('active').siblings().removeClass('active'); 
+                    var servicioSeleccionado = $(this).text(); 
+                    // Filtrar la lista de consultores por servicio 
+                    $('#consultores li').each(function() { 
+                        var servicio = $(this).find('p:last').text().split(': ')[1]; 
+                        if (servicio === servicioSeleccionado) { 
+                            $(this).show(); 
+                            } else { 
+                                $(this).hide(); 
+                                } 
+                                }); 
+                                }); 
+                                }); 
+                             </script> 
+                        </body>
+</html>
